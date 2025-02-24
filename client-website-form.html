@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Information Form</title>
+</head>
+<body>
+    <h2>Complete Website Project Information Form</h2>
+    <form action="https://formspree.io/f/mldgkkbj" method="POST" enctype="multipart/form-data">
+        
+        <!-- Business Details -->
+        <h3>Business Details</h3>
+        <label for="company_name">Company Name:</label><br>
+        <input type="text" id="company_name" name="company_name" required><br><br>
+        
+        <label for="company_description">Brief Company Description:</label><br>
+        <textarea id="company_description" name="company_description" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="industry">Industry/Business Type:</label><br>
+        <input type="text" id="industry" name="industry" required><br><br>
+
+        <label for="location">Business Location (Address, City, Country):</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <label for="contact_email">Contact Email:</label><br>
+        <input type="email" id="contact_email" name="contact_email" required><br><br>
+
+        <label for="contact_number">Contact Phone Number:</label><br>
+        <input type="text" id="contact_number" name="contact_number" required><br><br>
+
+        <label for="services">List of Services Provided:</label><br>
+        <textarea id="services" name="services" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="social_media">Social Media Links (Facebook, Twitter, Instagram, etc.):</label><br>
+        <input type="text" id="social_media" name="social_media"><br><br>
+
+        <!-- Website Structure -->
+        <h3>Website Structure</h3>
+        <label for="num_pages">Number of Pages for Your Website:</label><br>
+        <input type="number" id="num_pages" name="num_pages" required><br><br>
+
+        <label for="specific_pages">Specific Pages You Want (e.g., Homepage, About Us, Contact, Services, Blog, etc.):</label><br>
+        <textarea id="specific_pages" name="specific_pages" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="page_order">Desired Page Order (e.g., Homepage first, Services next):</label><br>
+        <input type="text" id="page_order" name="page_order"><br><br>
+
+        <label for="page_features">Special Features on Each Page (e.g., Contact Form, Gallery, Product Display):</label><br>
+        <textarea id="page_features" name="page_features" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Design Preferences -->
+        <h3>Design Preferences</h3>
+        <label for="color_scheme">Preferred Color Scheme:</label><br>
+        <input type="text" id="color_scheme" name="color_scheme"><br><br>
+
+        <label for="fonts">Preferred Fonts:</label><br>
+        <input type="text" id="fonts" name="fonts"><br><br>
+
+        <label for="logo">Do you have a logo? (Yes/No):</label><br>
+        <input type="text" id="logo" name="logo"><br><br>
+
+        <label for="branding">Branding Guidelines (if any):</label><br>
+        <textarea id="branding" name="branding" rows="4" cols="50"></textarea><br><br>
+
+        <label for="design_style">Preferred Design Style (Minimal, Modern, etc.):</label><br>
+        <input type="text" id="design_style" name="design_style"><br><br>
+
+        <label for="inspiration">Links to Websites You Like (For Inspiration):</label><br>
+        <textarea id="inspiration" name="inspiration" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Media Upload -->
+        <h3>Media Uploads</h3>
+        <label for="images">Upload Images (e.g., for gallery, banners, etc.):</label><br>
+        <input type="file" id="images" name="images[]" multiple><br><br>
+
+        <label for="videos">Upload Videos (e.g., product videos, intro video):</label><br>
+        <input type="file" id="videos" name="videos[]" multiple><br><br>
+
+        <label for="audio">Upload Audio (e.g., background music, sound files):</label><br>
+        <input type="file" id="audio" name="audio[]" multiple><br><br>
+
+        <!-- Website Features -->
+        <h3>Website Features</h3>
+        <label for="website_features">Desired Features (e.g., Contact Form, Blog, E-Commerce, etc.):</label><br>
+        <textarea id="website_features" name="website_features" rows="4" cols="50"></textarea><br><br>
+
+        <label for="ecommerce">Do you need e-commerce functionality? (Yes/No):</label><br>
+        <input type="text" id="ecommerce" name="ecommerce"><br><br>
+
+        <label for="payment_gateway">Preferred Payment Gateway for E-Commerce (e.g., PayPal, Stripe):</label><br>
+        <input type="text" id="payment_gateway" name="payment_gateway"><br><br>
+
+        <label for="user_account">Do you need user accounts or membership functionality? (Yes/No):</label><br>
+        <input type="text" id="user_account" name="user_account"><br><br>
+
+        <label for="multilingual">Will your website need to support multiple languages? (Yes/No):</label><br>
+        <input type="text" id="multilingual" name="multilingual"><br><br>
+
+        <!-- Content Management -->
+        <h3>Content Management</h3>
+        <label for="cms">Do you need a Content Management System (e.g., WordPress)? (Yes/No):</label><br>
+        <input type="text" id="cms" name="cms"><br><br>
+
+        <label for="content_updates">How frequently will you update your website’s content?</label><br>
+        <input type="text" id="content_updates" name="content_updates"><br><br>
+
+        <label for="media_content">Do you need media content management (images, videos, etc.)?</label><br>
+        <input type="text" id="media_content" name="media_content"><br><br>
+
+        <!-- SEO & Marketing -->
+        <h3>SEO & Marketing</h3>
+        <label for="seo">Do you need SEO services? (Yes/No):</label><br>
+        <input type="text" id="seo" name="seo"><br><br>
+
+        <label for="social_media_integration">Do you need social media integration? (Yes/No):</label><br>
+        <input type="text" id="social_media_integration" name="social_media_integration"><br><br>
+
+        <label for="email_marketing">Do you need email marketing integration? (Yes/No):</label><br>
+        <input type="text" id="email_marketing" name="email_marketing"><br><br>
+
+        <!-- Budget & Timeline -->
+        <h3>Budget & Timeline</h3>
+        <label for="budget">What is your estimated budget for the project?</label><br>
+        <input type="text" id="budget" name="budget" required><br><br>
+
+        <label for="timeline">Desired timeline for launching the website?</label><br>
+        <input type="text" id="timeline" name="timeline" required><br><br>
+
+        <!-- Additional Notes -->
+        <h3>Additional Information</h3>
+        <label for="additional_info">Any other specific requests, ideas, or questions?</label><br>
+        <textarea id="additional_info" name="additional_info" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
